@@ -21,9 +21,13 @@
 </footer>
 
 <!-- Core JS -->
-<script src="{{ asset('assets/vendors/jquery/jquery-3.4.1.js') }}"></script>
+{{-- <script src="{{ asset('assets/vendors/jquery/jquery-3.4.1.js') }}"></script>
 <script src="{{ asset('assets/vendors/bootstrap/bootstrap.bundle.js') }}"></script>
-<script src="{{ asset('assets/vendors/bootstrap/bootstrap.affix.js') }}"></script>
+<script src="{{ asset('assets/vendors/bootstrap/bootstrap.affix.js') }}"></script> --}}
+
+<!-- Bootstrap JS (v5 bundle includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 
 <!-- Custom JS -->
 <script src="{{ asset('assets/js/steller.js') }}"></script>

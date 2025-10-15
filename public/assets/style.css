@@ -7665,7 +7665,8 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #ff7a57 !important;
+    background: linear-gradient(90deg, rgba(10, 183, 255, 1) 0%, rgba(205, 0, 255, 1) 72%) !important;
+    color: #fff !important;
 }
 
 a.bg-primary:hover,

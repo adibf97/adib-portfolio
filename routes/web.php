@@ -22,4 +22,6 @@ Route::get('/', function () {
 Route::group(['prefix' => 'portfolio'], function () {
     Route::get('/mpa-homepage', [PortfolioController::class, 'mpaHomepage'])
         ->name('portfolio.mpahomepage');
+    Route::get('/dbkl-homepage', [PortfolioController::class, 'dbklHomepage'])
+        ->name('portfolio.dbklhomepage');
 });

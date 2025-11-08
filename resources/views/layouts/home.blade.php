@@ -18,29 +18,20 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home">Home</a>
+                            <a class="nav-link" href="{{ route('home') }}#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
+                            <a class="nav-link" href="{{ route('home') }}#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#service">Skills</a>
+                            <a class="nav-link" href="{{ route('home') }}#service">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                            <a class="nav-link" href="{{ route('home') }}#portfolio">Portfolio</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#testmonial">Testmonial</a>
-                        </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#blog">Others</a>
+                            <a class="nav-link" href="{{ route('home') }}#blog">Others</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#testmonial">Reviews</a>
-                        </li> -->
-                        <!-- <li class="nav-item">
-                            <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
-                        </li> -->
                     </ul>
                 </div>
             </div>

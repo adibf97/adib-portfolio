@@ -10,4 +10,9 @@ class PortfolioController extends Controller
     {
         return view('portfolio.mpaHomepage');
     }
+
+    public function dbklHomepage()
+    {
+        return view('portfolio.dbklHomepage');
+    }
 }

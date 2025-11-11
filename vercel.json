@@ -9,6 +9,13 @@
   },
   "routes": [
     {
+      "src": "/(.*\\.(?:css|js|map|json|png|jpg|jpeg|gif|svg|webp|ico|pdf|txt|woff|woff2|ttf|eot))",
+      "dest": "/public/$1",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
       "src": "/assets/(.*)",
       "dest": "/public/assets/$1"
     },

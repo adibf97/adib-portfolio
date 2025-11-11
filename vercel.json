@@ -24,14 +24,6 @@
       "src": "/(.*)",
       "dest": "public/index.php"
     }
-  ],
-  "functions": {
-    "api/index.php": {
-      "includeFiles": [
-        "bootstrap/**",
-        "storage/framework/views/*.php"
-      ]
-    }
-  }
+  ]
 }
 

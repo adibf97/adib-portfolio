@@ -1,0 +1,37 @@
+{
+  "installCommand": "composer install --prefer-dist --no-dev --optimize-autoloader",
+  "builds": [
+    {
+      "src": "public/index.php",
+      "use": "@vercel/php"
+    },
+    {
+      "src": "public/assets/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/favicon.ico",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "public/robots.txt",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    {
+      "src": "/(.*)",
+      "dest": "public/index.php"
+    }
+  ],
+  "functions": {
+    "api/index.php": {
+      "includeFiles": [
+        "bootstrap/**",
+        "storage/framework/views/*.php"
+      ]
+    }
+  }
+}
+

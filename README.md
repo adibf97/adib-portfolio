@@ -1,3 +1,14 @@
+## Deployment
+
+- **Prepare GitHub**: push all changes, including `vercel.json` and the generated `composer.lock`.
+- **Import to Vercel**: select the repo, choose the *Other* framework preset, and use the default root (`/`). Vercel reads `vercel.json` to build `public/index.php` with the PHP runtime.
+- **Environment variables**: set at least `APP_KEY`, `APP_ENV=production`, `APP_DEBUG=false`, database credentials, cache/session driver settings, and any API keys.
+- **Production caches**: `composer install` now runs `config:cache`, `route:cache`, and `view:cache` automatically (via `composer.json` scripts). Ensure your env vars are present so these commands succeed.
+- **Stateless runtime**: Vercel file system is read-only at runtime. Use managed services for storage (e.g. S3) and configure `LOG_CHANNEL=errorlog`.
+- **Local verification**: install Vercel CLI and run `vercel dev` to emulate the serverless PHP runtime before pushing to production.
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

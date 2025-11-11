@@ -22,7 +22,7 @@
                         <a href="#portfolio" class="btn btn-primary mb-2 mb-sm-0">
                             <i class="ti-rocket mr-2"></i> View Projects
                         </a>
-                        <a href="mailto:adibf97@gmail.com" class="btn btn-outline-dark">
+                        <a href="mailto:muhammadadib30@gmail.com" class="btn btn-outline-dark">
                             <i class="ti-email mr-2"></i> Contact Me
                         </a>
                     </div>

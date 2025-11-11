@@ -15,7 +15,7 @@
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_URL": "https://adib-portfolio-sigma.vercel.app",
+        "APP_URL": "https://adibfarhan.com",
         "ASSET_URL": "",
         "APP_DEBUG": "false",
         "APP_CONFIG_CACHE": "/tmp/config.php",

@@ -289,7 +289,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="img-wrapper">
-                            <img src="assets/imgs/mpa store.png" alt="">
+                            <img src="assets/imgs/mpastore.png" alt="">
                             <div class="overlay">
                                 <div class="overlay-infos">
                                     <h5>MPA Store</h5>

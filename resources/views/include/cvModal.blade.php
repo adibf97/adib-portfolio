@@ -38,7 +38,7 @@
             <div class="modal-body p-0 bg-light">
                 <div class="pdf-container" style="position: relative; height: 85vh; background: #f8f9fa;">
                     <iframe
-                        src="https://adib-portfolio-sigma.vercel.app/assets/files/Adib_Farhan_2025_CV.pdf"
+                        src="https://adibfarhan.vercel.app/assets/files/Adib_Farhan_2025_CV.pdf"
                         style="width: 100%; height: 100%; border: none; border-radius: 0 0 10px 10px;"
                         title="Adib Farhan CV"
                         loading="lazy">

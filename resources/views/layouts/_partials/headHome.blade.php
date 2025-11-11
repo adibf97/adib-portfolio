@@ -1,6 +1,7 @@
 <head>
-    <title>Adib Farhan Portfolio</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>Adib Farhan Portfolio</title>
     <link rel="icon" type="image/ico" href="https://adibfarhan.com/assets/imgs/logo.svg" />
 
     {{-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" /> --}}

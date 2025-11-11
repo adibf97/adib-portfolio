@@ -4,55 +4,53 @@
 
         <!-- Page Hero -->
         <header class="header" id="home" style="background: linear-gradient(120deg, #e0f7fa 0%, #fff1eb 100%); padding-top: 20px; padding-bottom: 0; position:relative; overflow:hidden; min-height:300px;">
-            <div class="container py-5 position-relative" style="display: flex; align-items: center; justify-content: flex-start; min-height: 440px;">
+            <div class="container py-3 py-md-5 position-relative" style="display: flex; align-items: center; justify-content: flex-start; min-height: 440px;">
                 <div class="infos" style="flex: 1.25; z-index:2;">
-                    <span class="d-inline-block mb-2" style="background: #f2f8fd; color: #1d83c8; font-size: 0.92rem; font-weight: 600; padding: 7px 20px 7px 16px; border-radius: 20px;">
+                    <span class="d-inline-block mb-2 hero-badge">
                         <i class="ti-sparkles" style="margin-right:7px; color:#fbc02d"></i>
                         Hello, I'm
                     </span>
-                    <h1 class="mb-1 mt-2" style="font-size:2.9rem; font-weight:800; color:#123d59; letter-spacing: -2px;">
+                    <h1 class="mb-1 mt-2 hero-title">
                         Adib Farhan
-                        <span style="display:inline-block; animation: popBounce 1.2s infinite alternate; font-size: 2rem; line-height: 1; margin-left:9px;">👋</span>
+                        <span class="wave-emoji">👋</span>
                     </h1>
-                    <h4 class="mb-3" style="color:#1575c6; font-weight:600; letter-spacing:1.1px; font-size:1.36rem;">Full Stack Developer</h4>
-                    <p style="font-size:1.09rem; color:#526477; max-width:420px; margin-bottom:1.3rem;">
+                    <h4 class="mb-3 hero-subtitle">Full Stack Developer</h4>
+                    <p class="hero-description">
                         I build elegant, robust web products for digital transformation &amp; public sector innovation.
                     </p>
-                    <div class="d-flex align-items-center mb-4" style="gap: 12px;">
-                        <a href="#portfolio" class="btn btn-primary" style="font-weight:600; border-radius:28px; padding:10px 28px 10px 22px; box-shadow: 0 2px 12px #1d83c818;">
-                            <i class="ti-rocket mr-2" style="font-size:1.15rem;"></i> View Projects
+                    <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center mb-4 hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary mb-2 mb-sm-0">
+                            <i class="ti-rocket mr-2"></i> View Projects
                         </a>
-                        <a href="mailto:adibf97@gmail.com" class="btn btn-outline-dark" style="font-weight:500; border-radius:28px; padding:10px 26px;">
+                        <a href="mailto:adibf97@gmail.com" class="btn btn-outline-dark">
                             <i class="ti-email mr-2"></i> Contact Me
                         </a>
                     </div>
                     <div class="socials mt-2">
-                        <a class="social-item" href="https://www.linkedin.com/in/muhammad-adib-farhan/" target="_blank" style="margin-right:8px; color: #0077b5; background: #f1fbfa; border-radius: 50%; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; font-size:1.2rem;"><i class="ti-linkedin"></i></a>
-                        <a class="social-item" href="https://github.com/adibf97" target="_blank" style="margin-right:8px; color: #222c36; background: #f1fbfa; border-radius: 50%; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; font-size:1.2rem;"><i class="ti-github"></i></a>
-                        <a class="social-item" href="https://twitter.com/Adibun97" target="_blank" style="margin-right:8px; color: #1da1f2; background: #f1fbfa; border-radius: 50%; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; font-size:1.2rem;"><i class="ti-twitter"></i></a>
-                        <a class="social-item" href="https://www.instagram.com/adibfarhan97/" target="_blank" style="margin-right:8px; color: #e64980; background: #f1fbfa; border-radius: 50%; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; font-size:1.2rem;"><i class="ti-instagram"></i></a>
+                        <a class="social-item" href="https://www.linkedin.com/in/muhammad-adib-farhan/" target="_blank"><i class="ti-linkedin"></i></a>
+                        <a class="social-item" href="https://github.com/adibf97" target="_blank"><i class="ti-github"></i></a>
+                        <a class="social-item" href="https://twitter.com/Adibun97" target="_blank"><i class="ti-twitter"></i></a>
+                        <a class="social-item" href="https://www.instagram.com/adibfarhan97/" target="_blank"><i class="ti-instagram"></i></a>
                     </div>
                 </div>
                 <!-- man.svg illustration placed right beside the info block, now much bigger -->
-                <div class="img-holder d-none d-md-flex align-items-center justify-content-center"
-                     style="flex:1.3; min-width:500px; max-width:2400px; min-height:550px;">
+                <div class="img-holder d-none d-md-flex align-items-center justify-content-center">
                     <img
                         src="{{ asset('assets/imgs/man.svg') }}"
                         alt="Adib Farhan Illustration"
-                        style="display:block; max-width:2200px; width:100%; min-width:480px; height:auto; filter:drop-shadow(0 21px 60px #1d83c822); opacity:0.97; z-index:2; pointer-events:none;"
+                        class="hero-illustration"
                     >
                 </div>
             </div>
             <!-- Projects/Widget Bottom Card -->
-            <div style="position:absolute; left:0; right:0; bottom:18px; display:flex; justify-content:center; z-index:20; width:100%; pointer-events:auto;">
-                <div class="widget" style="background: #fff; border-radius: 15px; box-shadow:0 8px 24px #18425d12; padding: 24px 40px 24px 40px; min-width:280px; text-align:center; display:flex; flex-direction:column; align-items:center;">
-                    <span style="font-size:1.9rem; font-weight:900; color:#123d59;">6+</span>
-                    <p style="margin-bottom:0; font-size:1.02rem; color:#666; letter-spacing:.6px; font-weight:500;">Projects Completed</p>
+            <div class="hero-widget-container">
+                <div class="widget">
+                    <span class="widget-number">6+</span>
+                    <p class="widget-text">Projects Completed</p>
                 </div>
             </div>
             <!-- Nice-looking SVG circle background for color decoration -->
-            <img src="{{ asset('assets/imgs/hero-circ-bg.svg') }}" alt=""
-                 style="position:absolute; right:8vw; top:10px; width:27vw; min-width:180px; max-width:340px; z-index:0; opacity:0.45; pointer-events:none;">
+            <img src="{{ asset('assets/imgs/hero-circ-bg.svg') }}" alt="" class="hero-bg-decoration">
         </header>
         <style>
             @keyframes popBounce {
@@ -60,21 +58,243 @@
                 65%  { transform: scale(1.24) rotate(6deg);}
                 100% { transform: scale(1.08) rotate(-3deg);}
             }
-            .btn-primary {
+
+            /* Hero Section Styles */
+            .hero-badge {
+                background: #f2f8fd;
+                color: #1d83c8;
+                font-size: 0.85rem;
+                font-weight: 600;
+                padding: 6px 16px 6px 14px;
+                border-radius: 20px;
+            }
+
+            .hero-title {
+                font-size: 2rem;
+                font-weight: 800;
+                color: #123d59;
+                letter-spacing: -1px;
+                line-height: 1.2;
+            }
+
+            .wave-emoji {
+                display: inline-block;
+                animation: popBounce 1.2s infinite alternate;
+                font-size: 1.5rem;
+                line-height: 1;
+                margin-left: 8px;
+            }
+
+            .hero-subtitle {
+                color: #1575c6;
+                font-weight: 600;
+                letter-spacing: 0.8px;
+                font-size: 1.1rem;
+            }
+
+            .hero-description {
+                font-size: 0.95rem;
+                color: #526477;
+                max-width: 420px;
+                margin-bottom: 1.3rem;
+            }
+
+            .hero-buttons {
+                gap: 10px;
+            }
+
+            .hero-buttons .btn {
+                font-weight: 600;
+                border-radius: 28px;
+                padding: 10px 24px 10px 20px;
+                white-space: nowrap;
+                font-size: 0.9rem;
+            }
+
+            .hero-buttons .btn-primary {
                 background: linear-gradient(92deg, #1697bf 0%, #47c4ea 100%) !important;
                 border: none;
                 color: #fff;
+                box-shadow: 0 2px 12px #1d83c818;
             }
-            .btn-outline-dark {
+
+            .hero-buttons .btn-outline-dark {
                 border: 1.5px solid #3b3b4f;
                 color: #18425d !important;
                 background: #fff !important;
             }
-            .socials a.social-item:hover {
+
+            .socials {
+                display: flex;
+                gap: 8px;
+                flex-wrap: wrap;
+            }
+
+            .social-item {
+                color: #222c36;
+                background: #f1fbfa;
+                border-radius: 50%;
+                width: 38px;
+                height: 38px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.1rem;
+                text-decoration: none;
+                transition: all 0.17s;
+            }
+
+            .social-item:hover {
                 background: #d7f7fa !important;
                 transform: translateY(-2px) scale(1.09);
                 box-shadow: 0 2px 10px #47c4ea19;
-                transition: all 0.17s;
+            }
+
+            .hero-illustration {
+                display: block;
+                max-width: 100%;
+                width: 100%;
+                height: auto;
+                filter: drop-shadow(0 21px 60px #1d83c822);
+                opacity: 0.97;
+                z-index: 2;
+                pointer-events: none;
+            }
+
+            .hero-widget-container {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 18px;
+                display: flex;
+                justify-content: center;
+                z-index: 20;
+                width: 100%;
+                pointer-events: auto;
+            }
+
+            .widget {
+                background: #fff;
+                border-radius: 15px;
+                box-shadow: 0 8px 24px #18425d12;
+                padding: 20px 30px;
+                min-width: 200px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .widget-number {
+                font-size: 1.6rem;
+                font-weight: 900;
+                color: #123d59;
+            }
+
+            .widget-text {
+                margin-bottom: 0;
+                font-size: 0.9rem;
+                color: #666;
+                letter-spacing: 0.5px;
+                font-weight: 500;
+            }
+
+            .hero-bg-decoration {
+                position: absolute;
+                right: 8vw;
+                top: 10px;
+                width: 27vw;
+                min-width: 120px;
+                max-width: 340px;
+                z-index: 0;
+                opacity: 0.45;
+                pointer-events: none;
+            }
+
+            /* Tablet and Desktop */
+            @media (min-width: 768px) {
+                .hero-title {
+                    font-size: 2.5rem;
+                    letter-spacing: -2px;
+                }
+
+                .wave-emoji {
+                    font-size: 2rem;
+                    margin-left: 9px;
+                }
+
+                .hero-subtitle {
+                    font-size: 1.36rem;
+                }
+
+                .hero-description {
+                    font-size: 1.09rem;
+                }
+
+                .hero-badge {
+                    font-size: 0.92rem;
+                    padding: 7px 20px 7px 16px;
+                }
+
+                .hero-buttons .btn {
+                    padding: 10px 28px 10px 22px;
+                    font-size: 1rem;
+                }
+
+                .social-item {
+                    width: 40px;
+                    height: 40px;
+                    font-size: 1.2rem;
+                }
+
+                .widget {
+                    padding: 24px 40px;
+                    min-width: 280px;
+                }
+
+                .widget-number {
+                    font-size: 1.9rem;
+                }
+
+                .widget-text {
+                    font-size: 1.02rem;
+                }
+            }
+
+            @media (min-width: 992px) {
+                .hero-title {
+                    font-size: 2.9rem;
+                }
+            }
+
+            /* Mobile Responsive */
+            @media (max-width: 767.98px) {
+                .header {
+                    min-height: auto;
+                    padding-bottom: 100px;
+                }
+
+                .header .container {
+                    min-height: auto;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                }
+
+                .hero-bg-decoration {
+                    display: none;
+                }
+
+                .hero-widget-container {
+                    position: relative;
+                    bottom: auto;
+                    margin-top: 30px;
+                    padding-bottom: 20px;
+                }
+
+                .widget {
+                    min-width: 180px;
+                    padding: 18px 20px;
+                }
             }
 
             @media (max-width: 991.98px) {
@@ -83,21 +303,125 @@
                 .header img[alt=""] {
                     display: none !important;
                 }
-                .header .widget {
-                    min-width: 180px;
-                    padding: 22px 18px;
+            }
+
+            /* About Section Responsive */
+            @media (max-width: 767.98px) {
+                #about .card {
+                    font-size: 0.9rem;
+                }
+
+                #about .card h6 {
+                    font-size: 1rem;
+                }
+
+                #about .card ul {
+                    font-size: 0.9rem;
+                    padding-left: 1.5rem;
+                }
+
+                #about .badge {
+                    font-size: 0.85rem !important;
+                    padding: 0.4em 0.9em !important;
+                }
+            }
+
+            /* Portfolio Section Responsive */
+            .img-wrapper {
+                overflow: hidden;
+                border-radius: 8px;
+            }
+
+            .img-wrapper img {
+                transition: transform 0.3s ease;
+            }
+
+            .img-wrapper:hover img {
+                transform: scale(1.05);
+            }
+
+            @media (max-width: 575.98px) {
+                .img-wrapper .overlay-infos h5 {
+                    font-size: 1rem;
+                }
+
+                .img-wrapper .overlay-infos p {
+                    font-size: 0.85rem;
+                }
+            }
+
+            /* Skills Section Responsive */
+            @media (max-width: 767.98px) {
+                .custom-card .card-body {
+                    padding: 35px 0;
+                }
+
+                .custom-card .card-body h5 {
+                    font-size: 1rem;
+                }
+            }
+
+            /* Navbar Responsive */
+            @media (max-width: 991.98px) {
+                .navbar-logo {
+                    width: 60px !important;
+                }
+
+                .navbar-nav {
+                    text-align: center;
+                    padding: 20px 0;
+                }
+
+                .navbar-nav .nav-link {
+                    padding: 10px 0;
+                    font-size: 1rem;
+                }
+            }
+
+            /* General Mobile Improvements */
+            @media (max-width: 575.98px) {
+                .section-title {
+                    font-size: 1.5rem;
+                }
+
+                .subtitle {
+                    font-size: 0.85rem;
+                }
+
+                .title {
+                    font-size: 1.3rem;
+                }
+
+                .card-body {
+                    padding: 1rem;
+                }
+
+                .card-title {
+                    font-size: 1.1rem;
+                }
+            }
+
+            /* Ensure proper spacing on mobile */
+            @media (max-width: 767.98px) {
+                .section {
+                    padding: 40px 0;
+                }
+
+                .container {
+                    padding-left: 15px;
+                    padding-right: 15px;
                 }
             }
         </style>
         <!-- End of Page Header -->
 
         <section id="about" class="section mt-3">
-            <div class="container mt-5">
+            <div class="container mt-3 mt-md-5">
                 <div class="row text-center text-md-left">
-                    <div class="col-md-3">
-                        <img src="assets/imgs/adibun.jpg" alt="" class="img-thumbnail mb-4">
+                    <div class="col-12 col-md-3 mb-4 mb-md-0">
+                        <img src="{{ asset('assets/imgs/adibun.jpg') }}" alt="Adib Farhan" class="img-thumbnail w-100" style="max-width: 250px;">
                     </div>
-                    <div class="pl-md-4 col-md-9">
+                    <div class="col-12 col-md-9 pl-md-4">
                         <h6 class="title">Muhammad Adib Farhan</h6>
                         <p class="subtitle">Full Stack Developer</p>
                         <p>Hello, my name is Muhammad Adib Farhan bin Haris Fadillah, and I am a Full Stack Developer with hands-on experience in system development, front-end architecture, and digital transformation projects. Over the years, I have been actively involved in delivering large-scale web solutions for both private companies and government sectors.</p>
@@ -112,12 +436,14 @@
                                 PHP Developer,
                                 <span style="color:#1575c6;">Sistem e-Perolehan & Pengurusan Projek (ePPP)</span>
                             </h6>
-                            <div class="mb-3 d-flex align-items-center" style="gap:7px;">
-                                <span class="text-muted" style="font-size:1rem;">Dewan Bandaraya Kuala Lumpur &mdash; </span>
-                                <img src="{{ asset('assets/imgs/logo-dbt.png') }}" alt="DBT Technologies Logo" style="width:23px;height:23px;vertical-align:middle;border-radius:3px;">
-                                <strong class="ml-1" style="color:#18425d;">DBT Technologies Sdn. Bhd.</strong>
+                            <div class="mb-3 d-flex flex-wrap align-items-center" style="gap:7px;">
+                                <span class="text-muted" style="font-size:0.95rem;">Dewan Bandaraya Kuala Lumpur &mdash; </span>
+                                <div class="d-flex align-items-center">
+                                    <img src="{{ asset('assets/imgs/logo-dbt.png') }}" alt="DBT Technologies Logo" style="width:23px;height:23px;vertical-align:middle;border-radius:3px;">
+                                    <strong class="ml-1" style="color:#18425d; font-size:0.95rem;">DBT Technologies Sdn. Bhd.</strong>
+                                </div>
                             </div>
-                            <ul class="pl-3 mb-1" style="max-width:700px;">
+                            <ul class="pl-3 mb-1" style="max-width:100%;">
                                 <li class="mb-1">Oversee registration modules and public user management system.</li>
                                 <li class="mb-1">Supervise junior developers and an intern, fostering team collaboration and growth.</li>
                                 <li class="mb-1">Ensure on-time delivery of project phases: UAT, PAT, FAT, and live deployment (Phase 1).</li>
@@ -141,7 +467,7 @@
                                     </span>
                                 </span>
                             </h6>
-                            <ul class="pl-3 mb-1" style="max-width:700px;">
+                            <ul class="pl-3 mb-1" style="max-width:100%;">
                                 <li class="mb-1">Integrated Payex payment system for CozyHomes platform to streamline online transactions.</li>
                                 <li class="mb-1">Implemented Mandarin SMS messaging using the Google Sheets API for improved communication workflows.</li>
                                 <li>Performed daily debugging and maintenance for the Garage web application, ensuring system stability and usability.</li>
@@ -163,10 +489,10 @@
                                     </span>
                                 </span>
                             </h6>
-                            <ul class="pl-3 mb-1" style="max-width:700px;">
+                            <ul class="pl-3 mb-1" style="max-width:100%;">
                                 <li class="mb-1">Developed multiple in-house systems including the MPA Helpdesk live chat platform and MPA Store.</li>
                                 <li class="mb-1">Integrated same-day delivery providers: Grab Express, Lalamove, Borzo, and Bungkusit.</li>
-                                <li class="mb-1">Led the front-end redesign for MyParcel Asia’s homepage, enhancing usability and visual appeal.</li>
+                                <li class="mb-1">Led the front-end redesign for MyParcel Asia's homepage, enhancing usability and visual appeal.</li>
                                 <li>Worked at MyParcel Asia for nearly four years, focusing on robust, scalable logistics technology solutions.</li>
                             </ul>
                         </div>
@@ -237,10 +563,10 @@
                 <h6 class="section-title mb-4">Check My Wonderful Works</h6>
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
                         <a href="{{ route('portfolio.dbklhomepage') }}" target="_blank">
                             <div class="img-wrapper">
-                                <img src="assets/imgs/dbkl2.png" alt="">
+                                <img src="assets/imgs/dbkl2.png" alt="DBKL Project" class="img-fluid">
                                 <div class="overlay">
                                     <div class="overlay-infos">
                                         <h5>Sistem Perolehan dan Pengurusan Projek</h5>
@@ -250,9 +576,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
                         <div class="img-wrapper">
-                            <img src="assets/imgs/helpdesk.jpg" alt="">
+                            <img src="assets/imgs/helpdesk.jpg" alt="MPA Helpdesk" class="img-fluid">
                             <div class="overlay">
                                 <div class="overlay-infos">
                                     <h5>MPA Helpdesk (Live Chat System)</h5>
@@ -261,9 +587,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
                         <div class="img-wrapper">
-                            <img src="assets/imgs/lalamove.png" alt="">
+                            <img src="assets/imgs/lalamove.png" alt="Same Day Delivery" class="img-fluid">
                             <div class="overlay">
                                 <div class="overlay-infos">
                                     <h5>Same Day Delivery</h5>
@@ -276,9 +602,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
                         <div class="img-wrapper">
-                            <img src="assets/imgs/appnew.jpg" alt="">
+                            <img src="assets/imgs/appnew.jpg" alt="MPA App" class="img-fluid">
                             <div class="overlay">
                                 <div class="overlay-infos">
                                     <h5>MPA New UI/UX Application site</h5>
@@ -287,9 +613,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
                         <div class="img-wrapper">
-                            <img src="assets/imgs/mpastore.png" alt="">
+                            <img src="assets/imgs/mpastore.png" alt="MPA Store" class="img-fluid">
                             <div class="overlay">
                                 <div class="overlay-infos">
                                     <h5>MPA Store</h5>
@@ -298,10 +624,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
                         <a href="{{ route('portfolio.mpahomepage') }}" target="_blank">
                             <div class="img-wrapper">
-                                <img src="assets/imgs/webnew.jpg" alt="">
+                                <img src="assets/imgs/webnew.jpg" alt="MPA Homepage" class="img-fluid">
                                 <div class="overlay">
                                     <div class="overlay-infos">
                                         <h5>MPA New UI/UX Homepage Site</h5>
@@ -325,9 +651,9 @@
                 <!-- <p class="mb-5 pb-4">This section is about </p> -->
 
                 <div class="row text-left">
-                    <div class="col-md-6">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/adibunyoutube.jpg" alt="" class="card-img-top w-100">
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="card border h-100">
+                            <img src="{{ asset('assets/imgs/adibunyoutube.jpg') }}" alt="YouTube Channel" class="card-img-top w-100">
                             <div class="card-body">
                                 <h5 class="card-title">Adibun Gaming YouTube Channel</h5>
                                 <p>My YouTube channel where I share my passion for technology and gaming. On my channel, I provide insightful reviews of tech gadgets and share my gaming highlights from my stream.</p>
@@ -335,9 +661,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="card border mb-4">
-                            <img src="assets/imgs/adibunfb.jpg" alt="" class="card-img-top w-100">
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="card border h-100">
+                            <img src="{{ asset('assets/imgs/adibunfb.jpg') }}" alt="Facebook Page" class="card-img-top w-100">
                             <div class="card-body">
                                 <h5 class="card-title">Adibun Gaming Facebook Page</h5>
                                 <p>Hey there! I want to tell you about the Adibun Gaming Facebook Page. It's where I stream playing video games. Come join and watch me dive into exciting gaming adventures and share tips and tricks.</p>

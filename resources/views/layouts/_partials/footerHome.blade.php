@@ -30,4 +30,4 @@
 
 
 <!-- Custom JS -->
-<script src="{{ asset('assets/js/steller.js') }}"></script>
+{{-- <script src="{{ asset('assets/js/steller.js') }}"></script> --}}

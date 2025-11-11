@@ -38,7 +38,7 @@
             <div class="modal-body p-0 bg-light">
                 <div class="pdf-container" style="position: relative; height: 85vh; background: #f8f9fa;">
                     <iframe
-                        src="{{ asset('assets/files/Adib_Farhan_2025_CV.pdf') }}"
+                        src="https://adibfarhan.com/assets/files/Adib_Farhan_2025_CV.pdf"
                         style="width: 100%; height: 100%; border: none; border-radius: 0 0 10px 10px;"
                         title="Adib Farhan CV"
                         loading="lazy">
@@ -49,7 +49,7 @@
             <!-- Footer -->
             <div class="modal-footer bg-white d-flex justify-content-between align-items-center">
                 <small class="text-muted">© {{ date('Y') }} Muhammad Adib Farhan — Resume Viewer</small>
-                <a href="{{ asset('assets/files/Adib_Farhan_2025_CV.pdf') }}" target="_blank" class="btn btn-outline-primary">
+                <a href="https://adibfarhan.com/assets/files/Adib_Farhan_2025_CV.pdf" target="_blank" class="btn btn-outline-primary">
                     <i class="bi bi-box-arrow-up-right me-2"></i> Open in New Tab
                 </a>
             </div>
